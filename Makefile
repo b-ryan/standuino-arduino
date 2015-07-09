@@ -1,5 +1,5 @@
-build:
+default:
 	ino build
 	ino upload
 
-.PHONY: build
+.PHONY: default
