@@ -43,11 +43,12 @@ Finally, plug the Arduino into a USB port.
 Getting the code running is easy:
 
 ```
-make arduino
+ino build
+ino upload
 ```
 
 If you get errors due to permissions on the serial port, you can give yourself
-permission to read/write on the serial port in use. In the output of the make
+permission to read/write on the serial port in use. In the output of the upload
 command you should see something like this:
 
 > Guessing serial port ... /dev/ttyACM0
